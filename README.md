@@ -13,7 +13,7 @@ Every computation is based on several input files:
 3) "Italy_\<poll\>data_\<date\>_est.csv"
 4) "Italy_\<poll\>data_\<date\>_val.csv"
 
-coords_est.csv stores the coordinates (UTM32) of each monitoring station selected for estimation. coords_val.csv stores the coordinates for station selected for validation purposes. For each selected date, the auxiliary variables used for the spatio-temporal regression are stored in the "Italy_<poll>data_<date>_est.csv" file, where date is the date in dd-mmm-yyyy format. "Italy_<poll>data_<date>_val.csv" corresponds to the same information, but for validation stations.
+coords_est.csv stores the coordinates (UTM32) of each monitoring station selected for estimation purposes. "coords_val.csv" stores the same information, but for stations used for validation purposes. For each selected date, the auxiliary variables used for the spatio-temporal regression are stored in the "Italy_\<poll\>data_\<date\>_est.csv" file, where date is the date in dd-mmm-yyyy format. "Italy_<poll>data_<date>_val.csv" corresponds to the same information, but for validation stations.
   
 At the end of each simulation, four files are saved:
 1) "Italy_\<poll\>data_\<date\>_EstimationResults.csv"
